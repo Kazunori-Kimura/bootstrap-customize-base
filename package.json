@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-customize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p watch server",
+    "build": "node-sass bootstrap-sass/assets/stylesheets/_bootstrap.scss dist/css/bootstrap.min.css --output-style compressed --source-map dist/css/bootstrap.min.css.map",
+    "watch": "chokidar \"bootstrap-sass/assets/stylesheets/**/*.scss\" -c \"npm run build\"",
+    "server": "browser-sync start --server --files \"*.html\" \"dist/**/*.*\""
+  },
+  "keywords": ["bootstrap"],
+  "author": "kazunori.kimura",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "chokidar-cli": "^1.2.0",
+    "node-sass": "^4.3.0",
+    "npm-run-all": "^4.0.0"
+  }
+}
