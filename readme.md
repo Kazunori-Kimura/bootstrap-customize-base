@@ -1,7 +1,7 @@
 Bootstrapの簡単カスタマイズ
 ======
 
-<script async class="speakerdeck-embed" data-id="d2e9cb2d67b74bffa6b46a0682a08ab3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+https://speakerdeck.com/kazunorikimura/bootstrapfalsejian-dan-kasutamaizu
 
 プロジェクトをダウンロードして
 
